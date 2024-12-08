@@ -8,7 +8,7 @@ import DownIcon from '../assets/down-icon.png';
 import CloseIcon from '../assets/close.png';
 
 const Nav = () => {
-  const [loggedin, setLoggedin] = useState(true);
+  const [loggedin, setLoggedin] = useState(false);
 
   const [toggle, setToggle] = useState(false);
 
