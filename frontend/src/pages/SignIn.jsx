@@ -6,11 +6,14 @@ import google from '../assets/download.png';
 
 const SignIn = () => {
   return (
-    <div className="cover">
+    <div className='login--main'>
+      <div className="cover">
           <div className="arrow-logo-container">
           <div className="arrow" 
             >
-            <img src={arrow} alt="Back Arrow" className="arrow-icon" />
+              <NavLink to='/'>
+                <img src={arrow} alt="Back Arrow" className="arrow-icon" />
+              </NavLink>
           </div>
   
           
@@ -54,6 +57,7 @@ const SignIn = () => {
           Already have an account? <NavLink to="/login">Sign In</NavLink>
         </p>
       </div>
+    </div>
   )
 }
 

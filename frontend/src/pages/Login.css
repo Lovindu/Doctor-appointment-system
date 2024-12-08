@@ -1,17 +1,14 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Arial", sans-serif;
-  }
-  
-  body {
+.login--main {
     background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    width: 100%;
   }
   
   .cover {
@@ -39,7 +36,7 @@
     width: 20px;     /* Adjust arrow size */
     height: 20px;
     cursor: pointer;
-    transform: rotate(80deg) ; 
+    transform: rotate(90deg);
   }
   
   .logo-section {
