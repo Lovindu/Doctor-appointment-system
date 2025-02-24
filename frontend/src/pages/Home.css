@@ -1,0 +1,375 @@
+.home--top {
+  display: flex;
+  background-color: #16333c;
+  margin: 20px 10px 10px 10px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.home--top > div > h1 {
+  font-size: 75px;
+}
+
+.home--top > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.home--top-list {
+  font-weight: 600;
+}
+
+.home--top-list > p {
+  margin-top: 10px;
+}
+
+.home--top-button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  color: #2d5967;
+  background-color: #f5ece5;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.home--top-right > img {
+  height: 500px;
+}
+
+.home--category {
+  margin: 30px 10px 10px 20px;
+}
+
+.home--category > hr {
+  width: 70px;
+  margin-top: 5px;
+  height: 5px;
+  background-color: black;
+}
+
+.home--category-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* Stylings for HomeCategory.jsx */
+
+.home-category--card {
+  width: 250px;
+  margin: 20px;
+  background-color: #eff1f3;
+  padding: 20px;
+  border-radius: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-category--card > div > h2 {
+  margin-top: 10px;
+  color: #16333c;
+}
+
+.home-category--card > div > p {
+  color: #32606e;
+  margin-top: 20px;
+}
+
+.home-category--card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.home-category--card-bottom > img {
+  height: 100px;
+}
+
+.home-category--card-bottom > button {
+  height: 50px;
+  width: 50px;
+  background-color: #32606e;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Top doctors section stylings */
+
+.home--topdoctors {
+  margin: 40px 20px 20px 20px;
+}
+
+.home--topdoctors > hr {
+  width: 70px;
+  margin-top: 5px;
+  height: 5px;
+  background-color: black;
+}
+
+.home--topdoctors-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+.home--topdoctors-container::-webkit-scrollbar {
+  height: 3px;
+  background-color: #dadada;
+}
+
+.home--topdoctors-container::-webkit-scrollbar-thumb {
+  background-color: #2d5967;
+}
+/* Top docotors card component styles */
+
+.home--topdoctors-card {
+  margin: 20px;
+}
+
+.home--topdoctors-card > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 230px;
+  width: 230px;
+  background-color: #f5ece5;
+  border-radius: 10px;
+}
+
+.home--topdoctors-card > div > img {
+  height: 220px;
+}
+
+.home--topdoctors-card > h3 {
+  margin-top: 5px;
+}
+
+.home--topdoctors-card > p {
+  color: #aaa8a8;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* create account section  */
+
+.home--createaccount {
+  display: flex;
+  align-items: center;
+  margin: 40px 10px 30px 10px;
+  background-color: #2d5967;
+  color: white;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.home--createaccount > img {
+  height: 300px;
+  padding-right: 100px;
+}
+
+.home--createaccount-details {
+  max-width: 800px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home--createaccount-details > h1 {
+  font-size: 35px;
+}
+
+.home--createaccount-details > p {
+  max-width: 350px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #f5ece5;
+}
+
+.home--createaccount-details-btn {
+  background-color: #f5ece5;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 30px;
+  color: #32606e;
+  font-weight: 600;
+}
+
+/* Tablet view */
+
+@media screen and (max-width: 720px) {
+  .home--top > div > h1 {
+    font-size: 35px;
+  }
+
+  .home--top > div {
+    gap: 1rem;
+  }
+
+  .home--top-list {
+    font-weight: 600;
+  }
+
+  .home--top-list > p {
+    margin-top: 8px;
+  }
+
+  .home--top-button {
+    font-size: 13px;
+  }
+
+  .home--top-right > img {
+    height: 300px;
+  }
+
+  .home--category-container {
+    gap: 1rem;
+    margin-left: 10px;
+  }
+
+  /* Stylings for HomeCategory.jsx */
+
+  .home-category--card {
+    width: 200px;
+    margin: 20px;
+    height: 280px;
+  }
+
+  .home-category--card-bottom > img {
+    height: 70px;
+  }
+
+  .home-category--card-bottom > button {
+    height: 40px;
+    width: 40px;
+  }
+
+  .home--createaccount {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .home--createaccount > img {
+    height: 200px;
+    padding-right: 40px;
+  }
+
+  .home--createaccount-details {
+    max-width: 400px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home--createaccount-details > h1 {
+    font-size: 25px;
+  }
+
+  .home--createaccount-details > p {
+    max-width: 350px;
+    font-size: 14px;
+  }
+
+  .home--createaccount-details-btn {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home--top {
+    padding: 20px;
+  }
+
+  .home--top > div > h1 {
+    font-size: 25px;
+  }
+
+  .home--top > div {
+    gap: 0.5rem;
+  }
+
+  .home--top-list > p {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+
+  .home--top-button {
+    margin-top: 10px;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .home--top-right > img {
+    display: none;
+  }
+
+  .home--category > h1 {
+    font-size: 25px;
+  }
+
+  .home--category-container {
+    gap: 0.5rem;
+    margin-left: -10px;
+    justify-content: center;
+  }
+
+  .home--category > hr {
+    width: 50px;
+    height: 3px;
+  }
+
+  .home-category--card {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .home--topdoctors > h1 {
+    font-size: 25px;
+  }
+
+  .home--topdoctors > hr {
+    width: 50px;
+    height: 3px;
+  }
+
+  .home--topdoctors-card > div {
+    height: 180px;
+    width: 180px;
+  }
+
+  .home--topdoctors-card > div > img {
+    height: 170px;
+  }
+
+  .home--createaccount > img {
+    display: none;
+  }
+
+  .home--createaccount-details {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .home--createaccount-details > h1 {
+    font-size: 25px;
+  }
+
+  .home--createaccount-details > p {
+    max-width: 350px;
+    font-size: 14px;
+  }
+
+  .home--createaccount-details-btn {
+    font-size: 13px;
+    padding: 10px 15px 10px 15px;
+  }
+}

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+:root {
+    --dark-green: #16333C;
+    --light-green: #32606E;
+    --light-green-2: #2D5967;
+    --cream-bg: #F5ECE5;
+}
+
+/* Navbar css code */
+
+.nav {
+    background-color: #F2F5F7;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    width: 97%;
+}
+
+.nav--logo {
+    height: 40px;
+    padding: 5px;
+}
+
+.nav--section-2 {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav--links {
+    display: flex;
+    max-width: 240px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1;
+   /*  position: relative; */
+}
+
+.nav--link-active {
+    color: var(--dark-green) !important;
+}
+
+/* 
+    Need to fix the bottom bar issue    
+
+.nav--links > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav--links > div > hr {
+    position: absolute;
+    bottom: 0; 
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: var(--light-green);
+} */
+
+
+.nav--link {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--light-green);
+}
+
+.nav--default-login {
+    border: none;
+    background-color: transparent;
+    margin: 0px 10px 0px 10px;
+}
+
+.nav--default-link {
+    text-decoration: none;
+}
+
+.link--login {
+    color: var(--dark-green);
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.nav--default-create {
+    background-color: var(--dark-green);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.link--create {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav--loggedin {
+    display: flex;
+    align-items: center;
+}
+
+.nav--loggedin:hover > .nav--loggedin-options {
+    display: flex;
+}
+
+.nav--loggedin > img:first-child {
+    height: 50px;
+}
+
+.nav--loggedin > button {
+    background-color: transparent;
+    border: none;
+}
+
+.nav--loggedin-options {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 85px;
+    right: 10px;
+    background-color: #F2F5F7;
+    border-radius: 10px;
+    display: none;
+}
+
+.nav--loggedin-options-link {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--light-green-2);
+}
+
+.nav--loggedin-options-link:hover {
+    color: var(--dark-green);
+}
+
+.nav--loggedin-options > button {
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+    color: var(--light-green-2);
+}
+
+.nav--loggedin-options > button:hover {
+    color: var(--dark-green);
+}
+
+.navbar--to-profile {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+.nav--right-mobile {
+    display: none;
+}
+
+.nav--right-mobile-inside {
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .nav--right-mobile {
+        display: block;
+    }
+
+    .nav--right-mobile > img {
+        height: 40px;
+    }
+
+    .nav--section-2 {
+        display: flex;
+        flex-direction: column;
+        height: 94vh;
+        position: absolute;
+        top: 0;
+        background-color: #F2F5F7;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        right: 0;
+        width: 250px;
+        padding: 10px;
+        border-radius: 10px;
+        transform: translateX(100%);
+        transition: 0.2s ease-in;
+        display: none;
+    }
+    
+    .nav--section-2-active {
+        transform: translateX(0%);
+        display: block;
+        position: fixed;
+    }
+
+    .nav--links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav--right-mobile-inside {
+        display: block;
+    }
+
+    .nav--right-mobile-inside > img {
+        height: 40px;
+        margin-top: 20px;
+        margin-right: 160px;
+    }
+
+    .nav--links > div {
+        margin: 15px;
+    }
+
+    .nav {
+        width: 92%;
+    }
+
+    .nav--default {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .nav--default > button {
+        margin: 10px;
+    }
+
+    .nav--loggedin {
+        margin-top: 30px;
+        margin-left: 20%;
+    }
+
+    .nav--loggedin:hover > .nav--loggedin-options {
+        display: none;
+    }
+}

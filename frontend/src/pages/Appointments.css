@@ -1,0 +1,343 @@
+.appointment--top {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.appointment--doctor-image {
+    background-color: #F5ECE5;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.appointment--doctor-image > img {
+    height: 300px;
+}
+
+.appointment--doctor-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.appointment--doctor-details > h3 {
+    font-size: 20px;
+}
+
+.appointment--doctor-details > p {
+    color: #AAA8A8;
+}
+
+.appointment--sessionsLeft{
+    color: #747373;
+    font-weight: bold;
+}
+
+.appointment--doctor-details-btn {
+    padding: 7px 15px 7px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16333C;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.appointment--top-sessions {
+    margin-left: 20px;
+}
+
+.appointment--top-sessions > h1 {
+    margin-left: 20px;
+}
+
+.appointment--top-sessions > hr {
+    width: 40px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: black;
+    border: none;
+    margin-left: 20px;
+}
+
+/* Appointment card styles */
+
+.appointment--card {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 20px;
+    text-align: center;
+    background-color: #F2F5F7;
+    padding: 15px 20px 15px 0px;
+    border-radius: 10px;
+    color: #2D5967;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#first-text {
+    text-align: left !important;
+}
+
+.appointment--card > span {
+    height: 50px;
+    width: 5px;
+    background-color: #11AF2E;
+}
+
+.appointment--card-btn {
+    background-color: #16333C;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border:  1px solid #16333C;
+    font-size: 15px;
+}
+
+.appointment--card-btn:hover {
+    color: #16333C;
+    background-color: transparent;
+    transition: 0.3s ease-in;
+}
+
+.appointment--card-green {
+    color: #11AF2E;
+}
+
+.appointment--card-red {
+    color: #F94C4C;
+}
+
+.appointment--relatedDocs {
+    margin: 40px 30px 30px 30px;
+}
+
+.appointment--relatedDocs > hr {
+    width: 40px;
+    height: 4px;
+    border: none;
+    background-color: black;
+}
+
+.appointment--relatedDocs-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 3.5rem;
+}
+
+.appointment--relatedDocs-container::-webkit-scrollbar {
+    height: 4px;
+    border-radius: 20px;
+    background-color: #DADADA;
+}
+
+.appointment--relatedDocs-container::-webkit-scrollbar-thumb {
+    background-color: #16333C;
+}
+
+/* Related Doctor card styles */
+
+.relatedDoctor {
+    margin-bottom: 20px;
+}
+
+.relatedDoctor > div {
+    background-color: #F5ECE5;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.relatedDoctor > div > img {
+    height: 200px;
+}
+
+.relatedDoctor > p {
+    color: #AAA8A8;
+}
+
+
+/* confirm appointment page styles */
+
+.confirmAppo--details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmAppo--details > div:first-child {
+    margin: 20px;
+}
+
+.confirmAppo--details > div:first-child > hr {
+    width: 40px;
+    height: 4px;
+    border: none;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.confirmAppo--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 3rem;
+}
+
+.confirmAppo--container-left > div {
+    height: 250px;
+    width: 250px;
+    background-color: #F5ECE5;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.confirmAppo--container-left > div > img {
+    height: 240px;
+}
+
+.confirmAppo--container-left > h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+.confirmAppo--container-left > p {
+    color: #747373;
+    line-height: 25px;
+}
+
+.confirmAppo--container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.confirmAppo-normal {
+    color: #2D5967;
+}
+
+.confirmAppo-green {
+    color: #11AF2E;
+}
+
+.confirmAppo-red {
+    color: #F94C4C;
+}
+
+.confirmAppo--container-right > button {
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.confirmAppo--container-right > button:hover {
+    background-color: transparent;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 1024px) {
+    .appointment--top-doctor {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .appointment--top {
+        flex-wrap: wrap;
+    }
+
+    .appointment--card {
+        gap: 2rem;
+        margin: 15px;
+    }
+
+    .appointment--doctor-image {
+        background-color: #F5ECE5;
+        border-radius: 10px;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        align-items: end;
+    }
+    
+    .appointment--doctor-image > img {
+        height: 240px;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    .appointment--card {
+        gap: 1rem;
+        margin: 20px 10px 20px 10px;
+        line-height: 22px;
+    }
+
+    .appointment--card > p {
+        font-size: 13px;
+    }
+    
+    .appointment--card-btn:hover {
+        color: #16333C;
+        background-color: transparent;
+        transition: 0.3s ease-in;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .appointment--top-doctor {
+        flex-direction: column;
+        gap: 0rem;
+        align-items: start;
+        margin-bottom: 20px;
+    }
+
+    .appointment--top-sessions{
+        margin-left: 0px;
+    }
+
+    .relatedDoctor > div {
+        height: 200px;
+        width: 200px;
+    }
+
+    .relatedDoctor > div > img {
+        height: 190px;
+    }
+
+    .relatedDoctor > h3 {
+        font-size: 18px;
+        margin: 10px 0px 5px 0px;
+    }
+
+    .relatedDoctor > p {
+        font-size: 12px;
+    }
+
+    .confirmAppo--container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

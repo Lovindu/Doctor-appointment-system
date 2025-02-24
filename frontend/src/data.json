@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "title": "General Physician",
+    "description": "A general physician provides comprehensive healthcare, diagnosing and treating various illnesses for all age groups",
+    "image": "/images/physician.png"
+  },
+  {
+    "id": "02",
+    "title": "Neurologist",
+    "description": "A neurologist specializes in diagnosing and treating disorders of the brain, spinal cord, and nerves",
+    "image": "/images/Neurologist.png"
+  },
+  {
+    "id": "03",
+    "title": "Pediatrician",
+    "description": "A pediatrician provides specialized healthcare for infants, children, and adolescents, ensuring their growth and development",
+    "image": "/images/pediatrician.png"
+  },
+  {
+    "id": "04",
+    "title": "Dermatologist",
+    "description": "A dermatologist diagnoses and treats skin, hair, and nail conditions, promoting healthy and radiant skin",
+    "image": "/images/dermotologist.png"
+  },
+  {
+    "id": "05",
+    "title": "Gynecologist",
+    "description": "A gynecologist focuses on women's health, offering care for reproductive systems, pregnancy, and hormonal conditions",
+    "image": "/images/gynecologist.png"
+  },
+  {
+    "id": "06",
+    "title": "Gatroenterologist",
+    "description": "A gastroenterologist specializes in diagnosing and treating digestive system disorders, including the stomach, intestines, and liver",
+    "image": "/images/gastroenterologist.png"
+  },
+  {
+    "id": "07",
+    "title": "Eye Surgeon",
+    "description": "An eye surgeon specializes in diagnosing and performing surgical treatments for vision and eye-related conditions",
+    "image": "/images/eye-surgeon.png"
+  }
+]

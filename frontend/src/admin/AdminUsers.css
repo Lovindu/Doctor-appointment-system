@@ -1,0 +1,152 @@
+.admin--users {
+    background-color: #FBFBFB;
+}
+
+.adminusers--wrap {
+    display: flex;
+}
+
+.adminusers-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 70%;
+    max-width: 1200px;
+    margin-top: 20px;
+    font-family: lato;
+    overflow-y: scroll;
+    height: 80vh;
+  }
+
+.adminusers-container::-webkit-scrollbar {
+    display: none;
+}
+
+  .users-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .users-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    width: 100%; 
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff; 
+   
+  }
+  
+  .search-input-wrapper {
+    display: flex;
+    height:19px;
+    align-items: center;
+    background-color: #f8f8f8; /* Light ash background */
+    border-radius: 30px;
+    padding: 8px;
+    width: 35%;
+  }
+  
+  .search-input {
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  
+  .search-icon img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+  
+  }
+  
+  .search-select-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* Matches container background */
+    border-radius: 8px;
+    padding: 8px;
+    width: 18%;
+  }
+  
+  .search-select {
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color:#949191;
+  }
+  
+  .search-select:focus {
+    outline: none;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .users-table th {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #666;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .users-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .more-options {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+    padding: 4px 8px;
+  }
+  
+  .more-options:hover {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }

@@ -1,0 +1,64 @@
+.doctor-details-container {
+  display: flex;
+}
+
+.doctordetails-left {
+  margin: 30px;
+}
+
+.doctordetails-left > h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.doctordetails-left > p {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #AAA8A8;
+}
+
+.doctordetails-image {
+  background-color: #F5ECE5;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 220px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.doctordetails-image > img {
+  height: 200px;
+}
+
+.doctordetails-button > button {
+  background-color: #16333C;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.doctordetails-right {
+  background-color: #F2F5F7;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+}
+
+.doctordetails-right > div {
+  margin-bottom: 20px;
+}
+
+.doctordetails-right > div > h3 {
+  color: #16333C;
+  margin-bottom: 5px;
+}
+
+.doctordetails-right > div > p {
+  color: #808080;
+}

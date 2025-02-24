@@ -1,0 +1,159 @@
+.personal-info-20 {
+    padding-top: 20px;
+}
+
+.profile-icon-20 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-main {
+    display: flex;
+    margin: 20px;
+}
+
+.profile-main > aside {
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-main > aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-main > aside ul li {
+    margin-bottom: 40px;
+}
+
+.profile-main > aside ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.profile-main > aside ul li a.active-20 {
+    font-weight: bold;
+}
+
+.profile-section-20 {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.profile-image-20 {
+    text-align: center;
+    margin-bottom: 20px; /* Ensure space between the image and form */
+}
+
+.profile-image-20 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-button-20 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #32606E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-button-20:hover {
+    background-color: #16333C;
+}
+
+.form-20 {
+    margin-top: 20px;
+}
+
+.personal-info-border-20 {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+.personal-info-20, .security-info-20 {
+    margin-bottom: 20px;
+    font-family: 'Lato',sans-serif;
+}
+
+.input-box-20 > label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-button[type="submit"] {
+    padding: 10px 20px;
+    background-color:#000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-button[type="submit"]:hover {
+    background-color: #16333C;
+}
+
+.input-box-20 {
+    flex: 1; 
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.personal-info-20 h2 {
+    margin-left: 40px;
+}
+
+.security-info-20 h2 {
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.security-info-20 {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.security-info-20 button {
+    margin-left: 40px;
+}
+
+.active-20 {
+    font-family: 'inter',sans-serif;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.profile-main > aside ul li:hover {
+    background-color: #32606E;
+}
+
+
+.update-btn {
+    background-color: #16333C;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+}

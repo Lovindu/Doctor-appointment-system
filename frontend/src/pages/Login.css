@@ -1,0 +1,156 @@
+.login--main {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    width: 100%;
+  }
+  
+  .cover {
+    background-color: #ffffff;
+    width: 360px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow:  0 0.188em 1.550em rgb(156,156,156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .arrow-logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack arrow above the logo */
+    align-items: flex-start; 
+  }
+  
+  .arrow {
+    margin-bottom: 0.5rem; /* Add spacing between the arrow and logo */
+  }
+  
+  .arrow-icon {
+    width: 20px;     /* Adjust arrow size */
+    height: 20px;
+    cursor: pointer;
+    transform: rotate(90deg);
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns the content (logo) to the left */
+    width: 100%; /* Makes the section span the full width of its container */
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust the size of the logo */
+    height: 150px;
+  }
+  
+  
+  .title {
+    font-size: 24px;
+    color: #00695c;
+  }
+  
+  .form-heading {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .forgot-password {
+    align-self: flex-end;
+    font-size: 12px;
+  }
+  
+  .forgot-password a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-btn {
+    background-color: #2D5967;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #004d40;
+  }
+  
+  .divider {
+    margin: 1rem 0;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .google-btn:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .google-icon {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  
+  .signup-text {
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+  
+  .signup-text a {
+    color: #b62e43;
+    text-decoration: underline;
+    
+  }
+  

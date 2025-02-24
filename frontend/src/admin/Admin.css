@@ -1,0 +1,238 @@
+.adminNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.admin-navbar {
+  display: flex;
+  width: 98%;
+  background-color: #f2f5f7;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.admin-navbar > div {
+  display: flex;
+  align-items: center;
+}
+
+.admin-navbar > div > img {
+  height: 45px;
+  padding: 10px;
+}
+
+.admin-navbar > div > p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.admin-navbar > button {
+  background-color: rgb(204, 24, 24);
+  border: none;
+  margin-right: 20px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 40px;
+}
+
+.admin-navbar > button:hover {
+  background-color: rgb(240, 80, 80);
+  transition: 0.3s ease-in;
+}
+
+/* Sidebar styles */
+
+.dashboard--sidebar {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  margin: 20px;
+  padding: 20px 20px 20px 0px;
+  border-radius: 20px;
+}
+
+.dashboard--sidebar > button > img {
+  height: 25px;
+}
+
+.dashboard--sidebar > button {
+  background-color: transparent;
+  border: none;
+  margin-left: 280px;
+}
+
+.sidebar--items-container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dashboard--sidebar-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  flex: 1;
+}
+
+.dashboard--sidebar-link:hover {
+  color: #32606e;
+  transition: 0.2s ease-in;
+}
+
+.sidebar--active-text {
+  color: #32606e !important;
+}
+
+.sidebar--active > div {
+  display: block !important;
+}
+
+.dashboard--sidebar-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.dashboard--sidebar-item > div {
+  height: 20px;
+  width: 3px;
+  background-color: #32606e;
+  display: none;
+}
+
+/* Dashboard styles */
+
+.admin--dashboard {
+  background-color: #fbfbfb;
+}
+
+.dashboard--container {
+  display: flex;
+}
+
+.dashboard--container-right {
+  margin: 20px;
+  width: 100%;
+}
+
+.dashboard--container-cards {
+  display: flex;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+.dashboardCard {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.dashboardCard > img {
+  height: 20px;
+  width: 20px;
+  margin-left: 130px;
+}
+
+.dashboardCard--count {
+  color: #11af2e;
+  font-size: 55px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.dashboardCard--description {
+  color: #2d5967;
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 130px;
+}
+
+.dashboard--container-appointments {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  gap: 3rem;
+}
+
+.dashboard--container-apps {
+  width: 400px;
+  background-color: white;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
+
+.dashboard--container-apps::-webkit-scrollbar {
+  display: none;
+}
+
+.dashboard--container-apps > p {
+  color: #808080;
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Dashboard appointment card styles */
+
+.dashboard--app-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px 10px 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #d2d2d2;
+}
+
+.dashboard--app-card-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.dashboard--app-card-img {
+  background-color: #f5ece5;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard--app-card-img > img {
+  height: 35px;
+}
+
+.dashboard--app-card-text > p:first-child {
+  font-size: 15px !important;
+  color: black;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.dashboard--app-card-text > p:nth-child(2) {
+  font-size: 10px;
+  color: #949191;
+}
+
+.dashboard--app-card-right {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+}
